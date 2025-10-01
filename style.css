@@ -310,6 +310,9 @@ p {
 	z-index: -1;
 }
 #who .who-bottom .icon {
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	height: 80px;
 	width: 80px;
 	border-radius: 50%;
@@ -577,11 +580,11 @@ p {
 		font-size: 6rem;
 	}
 
-	/* Hero */
-	#hero h1 {
+	/* Home */
+	#home h1 {
 		font-size: 7rem;
 	}
-	/* End Hero */
+	/* End Home */
 
 	/* Who Are We? Section */
 	#who .who-bottom .who-item {
@@ -702,6 +705,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
