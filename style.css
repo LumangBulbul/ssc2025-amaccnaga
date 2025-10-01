@@ -326,7 +326,7 @@ p {
     align-items: center;
 	height: 80px;
 	width: 80px;
-	margin-bottom: 20px;
+	object-fit: contain;
 }
 #who .who-item h2 {
 	font-size: 2rem;
@@ -715,6 +715,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
