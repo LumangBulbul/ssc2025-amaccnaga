@@ -1,4 +1,13 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+:root {
+   --ssc-maroon: #8B2D2B;
+   --ssc-navy: #2D3667;
+   --ssc-gold: #FFB800;
+   --ssc-white: #FFFFFF;
+   --ssc-orange: #F9A33A;
+   --ssc-lightblue: #6CA8D6;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -65,10 +74,10 @@ p {
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: white;
+	color: var(--ssc-maroon);
 }
 .brand h1 span {
-	color: crimson;
+	color: var(--ssc-navy);
 }
 
 /* Header section */
@@ -715,6 +724,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
