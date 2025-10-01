@@ -72,8 +72,8 @@ p {
 	background-color: crimson;
 }
 .ssc-logo {
-  height: auto;        
-  width: auto;
+  height: 40px;        
+  width: 40px;
   margin-right: 10px;   
   vertical-align: middle;
 }
@@ -730,6 +730,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
