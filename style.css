@@ -309,13 +309,23 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
+#who .who-bottom .icon {
+	width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #who .who-bottom .icon img {
 	display: flex;
     justify-content: center;
     align-items: center;
 	border-radius: 50%;
-	height: 80px;
-	width: 80px;
+	height: 120px;
+	width: 120px;
+	object-fit: contain; 
 	
 }
 #who .who-item h2 {
@@ -705,6 +715,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
