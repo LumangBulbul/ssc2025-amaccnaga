@@ -312,6 +312,7 @@ p {
 #who .who-bottom .icon {
 	height: 80px;
 	width: 80px;
+	border-radius: 50%;
 	margin-bottom: 20px;
 }
 #who .who-item h2 {
@@ -701,6 +702,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
