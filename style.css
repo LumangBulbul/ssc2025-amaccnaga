@@ -421,7 +421,7 @@ p {
 }
 /* End Student Scoop Corner section */
 
-/* NFT Fundraiser section */
+/* NFT section */
 #nft .nft {
 	flex-direction: column;
 	max-width: 1200px;
@@ -492,7 +492,7 @@ p {
 #nft .nft-item:hover .project-img img {
 	transform: scale(1.1);
 }
-/* End NFT Fundraiser section */
+/* End NFT section */
 
 /* About Section */
 #about .about {
@@ -796,6 +796,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
