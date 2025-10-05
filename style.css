@@ -684,26 +684,47 @@ p {
 	}
 	/* End Who Are We? Section */
 
-	/* Project */
-	#projects .project-item {
+	/* Student Scoop Corner */
+	#ssc .ssc-item {
 		flex-direction: row;
 	}
-	#projects .project-item:nth-child(even) {
+	#ssc .ssc-item:nth-child(even) {
 		flex-direction: row-reverse;
 	}
-	#projects .project-item {
+	#ssc .ssc-item {
 		height: 400px;
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
 	}
-	#projects .all-projects .project-info {
+	#ssc .all-ssc .ssc-info {
 		height: 100%;
 	}
-	#projects .all-projects .project-img {
+	#ssc .all-ssc .ssc-img {
 		height: 100%;
 	}
-	/* End Project */
+	/* End Student Scoop Corner */
+	
+	/* NFT */
+	#nft .nft-item {
+		flex-direction: row;
+	}
+	#nft .nftt-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#nft .nft-item {
+		height: 400px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	#nft .all-nft .nft-info {
+		height: 100%;
+	}
+	#nft .all-nft .nft-img {
+		height: 100%;
+	}
+	/* End NFT */
 
 	/* About */
 	#about .about {
@@ -796,6 +817,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
