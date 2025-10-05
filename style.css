@@ -421,23 +421,23 @@ p {
 }
 /* End Student Scoop Corner section */
 
-/* Projects section */
-#projects .projects {
+/* NFT Fundraiser section */
+#nft .nft {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#projects .projects-header h1 {
+#nft .nft-header h1 {
 	margin-bottom: 50px;
 }
-#projects .all-projects {
+#nft .all-nft {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-#projects .project-item {
+#nft .nft-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -447,7 +447,7 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-#projects .project-info {
+#nft .nft-info {
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
@@ -458,25 +458,25 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
-#projects .project-info h1 {
+#nft .nft-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
 }
-#projects .project-info h2 {
+#nft .nft-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
-#projects .project-info p {
+#nft .nft-info p {
 	color: white;
 }
-#projects .project-img {
+#nft .project-img {
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
 }
-#projects .project-img:after {
+#nft .project-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -486,13 +486,13 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.7;
 }
-#projects .project-img img {
+#nft .project-img img {
 	transition: 0.3s ease transform;
 }
-#projects .project-item:hover .project-img img {
+#nft .nft-item:hover .project-img img {
 	transform: scale(1.1);
 }
-/* End Projects section */
+/* End NFT Fundraiser section */
 
 /* About Section */
 #about .about {
@@ -796,6 +796,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
