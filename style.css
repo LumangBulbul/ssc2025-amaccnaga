@@ -97,7 +97,7 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(139, 45, 43, 0.021);
+	background-color: var(--ssc-maroon);
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -817,6 +817,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
