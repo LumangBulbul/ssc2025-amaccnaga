@@ -98,6 +98,7 @@ p {
 #header .header {
 	min-height: 8vh;
 	background-color: maroon;
+	linear-gradient: (90deg,#201a26cc 0%,#2a252f99 100%)
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -817,6 +818,7 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
 
 
 
